@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Streamlit
+.streamlit/
+
+# Large/unnecessary files
+*.mp4
+*.avi
+!sample-media/*.mp4
+
+# Dataset (if downloaded locally)
+dataset/
+data/
+*.zip
+
+# OS
+.DS_Store
